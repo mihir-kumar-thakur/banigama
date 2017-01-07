@@ -6,7 +6,7 @@ Progressus is a free, responsive, nice-looking business template based on Bootst
 
 License
 -------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+**Creative Commons Attribution 3.0** - https://creativecommons.org/licenses/by/3.0/
 
 
 Features
@@ -27,6 +27,6 @@ https://github.com/pozh/Progressus/issues
 
 Credits
 -------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* Photos used in template: **Unsplash** - http://unsplash.com
-* More free templates by Sergey: http://gettemplate.com
+* Design and development: **Sergey Pozhilov** - https://pozhilov.com
+* Photos used in template: **Unsplash** - https://unsplash.com
+* More free templates by Sergey: https://gettemplate.com
