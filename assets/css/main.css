@@ -92,3 +92,11 @@ img.pull-left { margin-right: 10px; }
 .heart_color {
 	color: red;
 }
+
+.contact a.linkedin:hover,.fa-facebook{
+    color:#0e76a8;
+}
+
+.contact a.twitter:hover,.fa-twitter{
+    color:#00acee;
+}
