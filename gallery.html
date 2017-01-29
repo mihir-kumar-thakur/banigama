@@ -1,0 +1,127 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+  {% seo %}
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/photo_gallery.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/headroom.min.js"></script>
+  <script src="assets/js/jQuery.headroom.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/js/template.js"></script>
+  <script>
+    document.getElementById("date_time").innerHTML = Date();
+  </script>
+  <script src="assets/js/photo_gallery.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('ul.first').bsPhotoGallery({
+        "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+        "hasModal" : true,
+          // "fullHeight" : false
+        });
+    });
+  </script>
+  <title>Banigama - Where Brotherhood in Blood</title>
+</head>
+
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+  body {
+    background:#ebebeb;
+  }
+  ul {
+    padding:0 0 0 0;
+    margin:0 0 40px 0;
+  }
+  ul li {
+    list-style:none;
+    margin-bottom:10px;
+  }
+
+  .text {
+    /*font-family: 'Bree Serif';*/
+    color:#666;
+    font-size:11px;
+    margin-bottom:10px;
+    padding:12px;
+    background:#fff;
+  }
+
+
+
+</style>
+
+<body>
+  {% include navbar.html %}
+
+  <header id="head" class="secondary"></header>
+
+  <!-- container -->
+  <div class="container">
+    <div class="row" style="text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; margin-bottom:40px;">
+      <h3 style="font-family:'Bree Serif', arial; font-weight:bold; font-size:30px;">
+        <a style="text-decoration:none; color:#666;" href="">PHOTO GALLERY BANIGAMA</a>
+      </h3>
+      <p>Send your Image at <strong><a style="color:red" href="mailto:images@banigama.com">images@banigama.com</a>
+      </div>
+
+      <ul class="row first">
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_1.jpg">
+          <div class="text">Flag Hosting At Aganbari Kendra</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_2.jpg">
+          <div class="text">Flag Hosting At School</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_3.jpg">
+          <div class="text">National flag High At Sky</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_4.jpg">
+          <div class="text">Children Saluting Nantional Flag</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_5.jpg">
+          <div class="text">Children Saluting Nantional Flag</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_6.jpg">
+          <div class="text">Villagers Paying Tribute To Nantional Flag</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_7.jpg">
+          <div class="text">Villagers Paying Tribute To Nantional Flag</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_8.jpg">
+          <div class="text">Prasad Vitran To Children</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_9.jpg">
+          <div class="text">Children Participating In Quiz Competition</div>
+        </li>
+        <li>
+          <img alt="26 Jan Celebration"  src="/assets/images/gallery/image_10.jpg">
+          <div class="text">Students Singing Songs</div>
+        </li>
+
+      </ul>
+
+    </div>  <!-- /container -->
+
+
+    {% include footer.html %}
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+
+  </body>
+  </html>

@@ -80,8 +80,12 @@ img.pull-left { margin-right: 10px; }
 }
 
 .small_btn {
-	    padding-top: 10px;
+	padding-top: 10px;
     padding-right: 27px;
     padding-bottom: 10px;
     padding-left: 27px;
+}
+
+.button_width {
+  width: 100%;
 }
